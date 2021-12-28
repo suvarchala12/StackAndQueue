@@ -21,6 +21,11 @@ namespace StackAndQueue
             queueListNode.Enqueue(56);
             queueListNode.Enqueue(30);
             queueListNode.Enqueue(70);
+            queueListNode.Dequeue(56);
+            queueListNode.Dequeue(30);
+            queueListNode.Dequeue(70);
+            queueListNode.show();
+
             Console.WriteLine(queueListNode.Size);
             Console.WriteLine("----------------------------------------");
 
